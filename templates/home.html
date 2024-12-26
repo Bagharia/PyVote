@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./../static/output.css">
 </head>
 <body>
     <!-- <h1>Bienvenue sur la page d'accueil</h1>
@@ -21,7 +21,7 @@
     <a href="{{ url_for('ballot.create_ballot_form') }}" style="padding: 10px; background-color: #47f0ff; color: white; text-decoration: none; border: none; border-radius: 5px; display: inline-block;">
         Créer un Scrutin
     </a> -->
-    <div class="bg-[url('./images/martin-martz-qqyUN78RmgI-unsplash.png')] bg-cover bg-center h-screen w-screen">
+    <div class="bg-[url('./images/background.png')] bg-cover bg-center h-screen w-screen">
         <header>
             <nav class="flex items-center justify-between p-4">
                 <a href="home.html" ><img src="./images/logo_Pyvote.png" alt="logo" class="h-8"></a>
@@ -38,14 +38,9 @@
             <p class="text-4xl mb-4">A quoi consiste Pyvote ?</p>
             <p class="text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores magnam, quibusdam deserunt itaque reiciendis, praesentium consequatur veritatis qui esse maxime mollitia provident voluptate a placeat porro facilis repudiandae. Natus, quasi.</p>
         </div>
-        <button class="bg-white text-black font-bold py-2 px-4 rounded-md">
-            Voir plus
-          </button>
-
-
-
+        <button class="!bg-white text-black font-bold py-2 px-4 rounded-md">Voir plus</button>
     </div>
-    
-    </body>
+    <img src="./images/background.png" alt="logout">
+</body>
 
 </html>
